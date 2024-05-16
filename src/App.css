@@ -1,0 +1,16 @@
+span {
+  color: #FFB703;
+}
+
+.generator__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg, #023047 2.88%, #219EBC 98.65%);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 4vh 5vw;
+}
+
+

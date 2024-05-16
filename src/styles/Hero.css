@@ -1,0 +1,49 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 120.8%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #dfe7ec;
+  margin-bottom: 14px;
+}
+
+.password {
+  font-weight: 200;
+  letter-spacing: 0.05em;
+  color: #FFB703;
+  background: linear-gradient(90deg, #FFB703 0%, #FB8500 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+.divisor {
+  margin: 0px 0px;
+  width: 90%;
+  align-self: center;
+  left: calc(50% - 320px/2);
+  border: 1px solid #219EBC;
+  opacity: 40%;
+  margin: auto;
+  margin-bottom: 16px;
+}
+
+.intro {
+  margin: 0px 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 135.95%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #a7d6ec;
+}

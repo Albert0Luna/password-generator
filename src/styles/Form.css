@@ -1,0 +1,62 @@
+.form_phrase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input_label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 135.95%;
+  /* or 24px */
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.input_password {
+  width: 100%;
+  font-weight: 400;
+  background-color: transparent;
+  height: 51px;
+  left: calc(50% - 325px/2 - 0.5px);
+  border: 2px solid #8ECAE6;
+  border-radius: 8px;
+  margin: 13px 0px;
+  padding: 0 10px;
+  outline: transparent;
+  color: #efefef;
+  font-size: 1.1rem;
+}
+
+.input_password::placeholder {
+  color: #b7d2df;
+}
+
+.submit_button {
+  width: 60%;
+  align-self: center;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+  bottom: 136.24%;
+  background-color: transparent;
+  color: #56D553;
+  font-size: 1rem;
+  border: 1.5px solid #56D553;
+  border-radius: 4px;
+  transform: rotate(0.06deg);
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 25px;
+}
+
+.invalid_input {
+  color: #740118;
+}
